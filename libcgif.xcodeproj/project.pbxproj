@@ -1,0 +1,181 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXFileReference section */
+		41832F9013DF482300C91B70 /* liblibcgif.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = liblibcgif.a; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		41832F8D13DF482300C91B70 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		41832F8513DF482300C91B70 = {
+			isa = PBXGroup;
+			children = (
+				41832F9113DF482300C91B70 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		41832F9113DF482300C91B70 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				41832F9013DF482300C91B70 /* liblibcgif.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		41832F8E13DF482300C91B70 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		41832F8F13DF482300C91B70 /* libcgif */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 41832F9413DF482300C91B70 /* Build configuration list for PBXNativeTarget "libcgif" */;
+			buildPhases = (
+				41832F8C13DF482300C91B70 /* Sources */,
+				41832F8D13DF482300C91B70 /* Frameworks */,
+				41832F8E13DF482300C91B70 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = libcgif;
+			productName = libcgif;
+			productReference = 41832F9013DF482300C91B70 /* liblibcgif.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		41832F8713DF482300C91B70 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 41832F8A13DF482300C91B70 /* Build configuration list for PBXProject "libcgif" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 41832F8513DF482300C91B70;
+			productRefGroup = 41832F9113DF482300C91B70 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				41832F8F13DF482300C91B70 /* libcgif */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		41832F8C13DF482300C91B70 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		41832F9213DF482300C91B70 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		41832F9313DF482300C91B70 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		41832F9513DF482300C91B70 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				EXECUTABLE_PREFIX = lib;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		41832F9613DF482300C91B70 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				EXECUTABLE_PREFIX = lib;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		41832F8A13DF482300C91B70 /* Build configuration list for PBXProject "libcgif" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				41832F9213DF482300C91B70 /* Debug */,
+				41832F9313DF482300C91B70 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		41832F9413DF482300C91B70 /* Build configuration list for PBXNativeTarget "libcgif" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				41832F9513DF482300C91B70 /* Debug */,
+				41832F9613DF482300C91B70 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 41832F8713DF482300C91B70 /* Project object */;
+}
