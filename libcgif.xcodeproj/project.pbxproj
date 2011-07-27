@@ -6,8 +6,19 @@
 	objectVersion = 46;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		41832F9913DF484000C91B70 /* cgi.c in Sources */ = {isa = PBXBuildFile; fileRef = 41832F9713DF484000C91B70 /* cgi.c */; };
+		41832F9A13DF484000C91B70 /* cgi.h in Headers */ = {isa = PBXBuildFile; fileRef = 41832F9813DF484000C91B70 /* cgi.h */; };
+		41832FA913DF48DF00C91B70 /* hex.c in Sources */ = {isa = PBXBuildFile; fileRef = 41832FA713DF48DF00C91B70 /* hex.c */; };
+		41832FAA13DF48DF00C91B70 /* hex.h in Headers */ = {isa = PBXBuildFile; fileRef = 41832FA813DF48DF00C91B70 /* hex.h */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
 		41832F9013DF482300C91B70 /* liblibcgif.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = liblibcgif.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		41832F9713DF484000C91B70 /* cgi.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = cgi.c; sourceTree = "<group>"; };
+		41832F9813DF484000C91B70 /* cgi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cgi.h; sourceTree = "<group>"; };
+		41832FA713DF48DF00C91B70 /* hex.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = hex.c; sourceTree = "<group>"; };
+		41832FA813DF48DF00C91B70 /* hex.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = hex.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -24,6 +35,10 @@
 		41832F8513DF482300C91B70 = {
 			isa = PBXGroup;
 			children = (
+				41832FA713DF48DF00C91B70 /* hex.c */,
+				41832FA813DF48DF00C91B70 /* hex.h */,
+				41832F9713DF484000C91B70 /* cgi.c */,
+				41832F9813DF484000C91B70 /* cgi.h */,
 				41832F9113DF482300C91B70 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -43,6 +58,8 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				41832F9A13DF484000C91B70 /* cgi.h in Headers */,
+				41832FAA13DF48DF00C91B70 /* hex.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -93,6 +110,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				41832F9913DF484000C91B70 /* cgi.c in Sources */,
+				41832FA913DF48DF00C91B70 /* hex.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
